@@ -1,0 +1,44 @@
+.clock {
+  text-align: center;
+  font-size: xxx-large;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  height: 75%;
+}
+
+.mat-cell {
+  text-align: right;
+}
+
+.mat-header-cell {
+  padding: 0 !important;
+  border-top: 1px solid currentColor;
+  font-size: larger !important;
+  text-align: center;
+}
+
+.mat-column-id {
+  padding-right: 1em;
+  border-right: 1px solid currentColor;
+  font-size: smaller;
+}
+
+.mat-column-bib {
+  width: 3em;
+  padding-right: 1em;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.mat-column-time {
+  width: 6em;
+  font-size: larger;
+}
+
+.mat-row:hover .mat-cell {
+  background-color: lightgrey;
+}

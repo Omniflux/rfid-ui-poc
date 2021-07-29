@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+}
+
+.mat-cell {
+  text-align: center;
+}
+
+.mat-header-cell {
+  padding: 0 !important;
+  border-top: 1px solid currentColor;
+  font-size: larger !important;
+  text-align: center !important;
+}
+
+.mat-column-id {
+  padding-right: 1em;
+  border-right: 1px solid currentColor;
+  font-size: smaller;
+  text-align: right;
+}
+
+.mat-column-time {
+  width: 6em;
+  font-size: larger;
+}
+
+.mat-column-antenna, .mat-column-rssi {
+  padding-right: initial !important;
+}
+
+.mat-row:hover .mat-cell {
+  background-color: lightgrey;
+}
